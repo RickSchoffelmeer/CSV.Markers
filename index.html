@@ -21,7 +21,7 @@ var map = L.mapbox.map('map')
     .setView([53.201233, 5.799913], 12)
     .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/outdoors-v11'));
 
-var RADIUS = 5000;
+var RADIUS = 250;
 var filterCircle = L.circle(L.latLng(53.201233, 5.799913), RADIUS, {
     opacity: 1,
     weight: 1,
